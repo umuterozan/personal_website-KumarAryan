@@ -3,6 +3,7 @@
 
 :root {
     --bg-light: #fff;
+    --bg-dark: #111;
     --black: #000;
     --white: #fff;
     --purple: #4777e5;
@@ -154,4 +155,125 @@ body {
     margin-left: 32px;
     width: 14.86px;
     height: 13px;
+}
+
+/* Second Article */
+
+.second-article-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.second-article-item {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.second-article-images img {
+    margin-right: 150px;
+    width: 280px;
+    height: 330px;
+}
+
+.second-article-images img:last-child {
+    margin-right: 0;
+}
+
+.second-article-buttons button {
+    margin-top: 97px;
+    margin-right: 182px;
+    background: var(--bg-light);
+    color: var(--purple);
+    width: 250px;
+    height: 72px;
+    border: 2px solid var(--purple);
+    border-radius: 77px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.second-article-buttons button:last-child {
+    margin-right: 0;
+}
+
+.second-article-buttons button:hover {
+    cursor: pointer;
+}
+
+.second-article-buttons button img {
+    margin-left: 32px;
+    width: 14.86px;
+    height: 13px;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 51px;
+    padding: 75px 0;
+    background: var(--bg-dark);
+}
+
+.footer-title {
+    text-align: center;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.footer-first-items,
+.footer-second-items {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.footer-first-items {
+    margin-left: 118px;
+    margin-right: 357px;
+}
+
+.footer-second-items {
+    margin-left: 300px;
+    margin-right: 158px;
+}
+
+.footer-first-items a,
+.footer-second-items a {
+    margin-right: 300px;
+    color: var(--white);
+    opacity: 0.5;
+}
+
+.footer-first-items a:last-child,
+.footer-second-items a:last-child {
+    margin-right: 0;
+}
+
+.footer-last {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-last-image {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-last-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.footer-last-text a {
+    color: var(--white);
 }
