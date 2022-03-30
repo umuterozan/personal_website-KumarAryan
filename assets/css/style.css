@@ -146,6 +146,10 @@ body {
     line-height: 21px;
 }
 
+.article-item-text button:hover {
+    cursor: pointer;
+}
+
 .article-item-text button img {
     margin-left: 32px;
     width: 14.86px;
