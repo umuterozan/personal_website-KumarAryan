@@ -303,7 +303,6 @@ body.dark .article-title,
 body.dark .second-article-title,
 body.dark .article-item-text {
     color: var(--white);
-    opacity: 0.9;
 }
 
 .toggle-button {
