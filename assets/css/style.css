@@ -354,3 +354,38 @@ body.dark .article-item-text {
 .fa-sun {
     color: yellow;
 }
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+    .nav-items a,
+    .article-item,
+    .second-article-items {
+        display: none;
+    }
+    .article {
+        display: flex;
+        flex-direction: column;
+    }
+    .article-item,
+    .second-article-items {
+        display: block;
+    }
+    .article-item-text {
+        margin-left: 0;
+    }
+    .second-article-item {
+        margin-bottom: 107px;
+    }
+    .second-article-item:last-child {
+        margin-bottom: 0;
+    }
+    .article-item-text {
+        margin-top: 30px;
+    }
+
+    .footer-first-items a:last-child,
+    .footer-second-items a:last-child {
+        margin-right: 300px;
+    }
+}
